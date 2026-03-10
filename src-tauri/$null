@@ -1,0 +1,22 @@
+New-Object : Exce‡Æo ao chamar ".ctor" com "1" argumento(s): "O argumento 'picture' deve ser uma imagem que possa ser 
+usada como Icon."
+No linha:1 caractere:77
++ ... 6); $icon = New-Object System.Drawing.Icon('C:\Users\gabriel.teles\Do ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+NÆo ‚ poss¡vel chamar um m‚todo em uma expressÆo de valor nulo.
+No linha:1 caractere:227
++ ... g'); $ms = New-Object System.IO.MemoryStream; $icon.Save($ms); $ms.Se ...
++                                                   ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+NÆo ‚ poss¡vel chamar um m‚todo em uma expressÆo de valor nulo.
+No linha:1 caractere:436
++ ... -tauri\icons\icon.ico', $ms.ToArray()); $ms.Close(); $icon.Dispose();
++                                                          ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
